@@ -12,9 +12,12 @@ print(mmdr)
 conf = open("Conf.txt", "r")
 confr = conf.read()
 print(confr)
-os.mkdir("mods")
-os.chdir("mods")
 
+try:
+    os.mkdir("mods")
+    os.chdir("mods")
+except:
+    os.chdir("mods")
 
 if confr == "ru":
     for dirpath, dirnames, filenames in os.walk("."):

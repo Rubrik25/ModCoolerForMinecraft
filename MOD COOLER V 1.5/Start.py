@@ -12,7 +12,7 @@ print(mmdr)
 conf = open("Conf.txt", "r")
 confr = conf.read()
 print(confr)
-
+os.mkdir("mods")
 os.chdir("mods")
 
 

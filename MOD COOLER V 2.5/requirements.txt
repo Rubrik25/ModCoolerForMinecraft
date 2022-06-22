@@ -1,0 +1,4 @@
+configparser
+tkinter
+os
+shutil
